@@ -1,0 +1,154 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    height: 500px;
+}
+
+body{
+    width: 100%;
+    background-image: url(bodybg.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#nav{
+    height: 60px;
+    width: 100%;
+    height: 60px;
+    background-color: #0000003d;
+    border-radius: 10px;
+}
+
+.image{
+    height: 40px;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+a{
+    color: #fbede0;
+    text-decoration:none;
+    float: right;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:100%;
+    margin-top: 17px;
+   
+}
+a:hover{
+    color:#e46e51
+}
+
+a:hover,a:active{
+    text-decoration:underline;
+}
+
+.text{
+    width: 40%;
+    height:50px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.text2{
+    width: 40%;
+    height:50px;
+    margin-top: 10px;
+}
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.gallery {
+    float: left;
+}
+
+.gallery a {
+    text-decoration: none; 
+    font-size: 15px;
+    text-align: center;
+    color: #000000b3; 
+    transition: opacity 0.3s ease; 
+}
+
+.gallery img {
+    width: 500px; 
+    height: 400px; 
+    float: left;
+    margin-top: 25px;
+    margin-left: 150px;
+    border-radius: 8px;
+    transition: opacity 0.3s ease, transform 0.3s ease; 
+}
+
+.gallery img:hover {
+    opacity: 0.7; 
+    transform: scale(1.05); 
+}
+aside {
+    width: 25%;
+    height: 150px;
+    float:right;
+    margin-top: 60px;
+    font-style: italic;
+    background-color: #ffaec2;
+}
+
+.top1 p{
+    text-align: center;
+    font-family: papyrus; 
+    margin-top: 10px; 
+    font-size: 25px;
+    height: 10px; 
+}
+.top1 h4{
+    margin-top: 30px;
+    height: 10px;
+}
+
+.top1 h4 a{
+    margin:0%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 14px;
+    height: 10px;
+}
+.top1 h5{
+    margin-top: 55px;
+    font-size: large;
+}
+
+.top p{
+    text-align: center;
+    font-family: papyrus; 
+    margin-top: 10px; 
+    font-size: 23px;
+    height: 10px; 
+}
+.top h4{
+    margin-top: 25px;
+    height: 10px;
+}
+
+.top h4 a{
+    margin:0%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 35px;
+    height: 10px;
+}
+.top h5{
+    margin-top: 50px;
+    font-size: large;
+}
+
+footer{
+    height: 60px;
+    width: 100%;
+    margin-top: 15%;
+    background-color: #0000003d;
+    border-radius: 10px;
+
+}
+    
